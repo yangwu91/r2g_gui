@@ -5,7 +5,7 @@
 
 ## Introduction
 
-<div align=center><img src="https://raw.githubusercontent.com/yangwu91/r2g_gui/master/images/screenshot.png" alt="screenshot"/></div>
+<div align=center><img src="https://raw.githubusercontent.com/yangwu91/r2g_gui/main/images/screenshot.png" alt="screenshot"/></div>
 
 This is the GUI wrapper for **Reads to Genes**, or **r2g**, which is a homology-based, computationally lightweight pipeline for discovering genes in the absence of an assembly. The r2g core is hosted on https://github.com/yangwu91/r2g.
 
@@ -25,12 +25,12 @@ You can choose one of the following methods to install the `r2g GUI`:
 
   | Operating System | Size (Mb) | MD5                              | Download link                 |
   | ---------------- | --------- | -------------------------------- | ----------------------------- |
-  | Windows          | 40.58     | 6ce77067905cb0d7e5c17934a018da76 | [r2g_gui-0.1.0-Windows.zip]() |
-  | macOS            | 30.10     | f719b82ba47e74b758a2505aecb4c5ad | [r2g_gui-0.1.0-macOS.zip]()   |
+  | Windows          | 40.58     | 6ce77067905cb0d7e5c17934a018da76 | [r2g_gui-0.1.0-Windows.zip](https://github.com/yangwu91/r2g_gui/releases/download/v0.1.0/r2g_gui-0.1.0-Windows.zip) |
+  | macOS            | 30.10     | f719b82ba47e74b758a2505aecb4c5ad | [r2g_gui-0.1.0-macOS.zip](https://github.com/yangwu91/r2g_gui/releases/download/v0.1.0/r2g_gui-0.1.0-macOS.zip)   |
 
   ⚠️ Please note that Windows Defender will report it as `Trojan:Win32/Wacatac.B!ml`, which is **false positive**. Add the `r2g.exe` to the excluding list of Windows Defender for further use. Please check out the scanning results on [https://virustotal.com](https://www.virustotal.com/gui/file/c6a235bd3ef7497de19a8e0fbf251ba9526e6321110a32b891e419a7ff0a6e34/detection).  Or maybe you can try the other method if the Python 3 environment has been installed on your computer.
 
-  <div align=center><img src="https://raw.githubusercontent.com/yangwu91/r2g_gui/master/images/windows_defender.png" alt="windows_defender"/></div>
+  <div align=center><img src="https://raw.githubusercontent.com/yangwu91/r2g_gui/main/images/windows_defender.png" alt="windows_defender"/></div>
 
 * Install by PyPI (**Python 3 environment is required**)
 
@@ -48,13 +48,13 @@ You can choose one of the following methods to install the `r2g GUI`:
 
      Unzip the `r2g_gui-*.*.*-Windows.zip`, and then double click `r2g.exe`. 
 
-     <div align=center><img src="https://raw.githubusercontent.com/yangwu91/r2g_gui/master/images/win.png" alt="win"/></div>
+     <div align=center><img src="https://raw.githubusercontent.com/yangwu91/r2g_gui/main/images/win.png" alt="win"/></div>
 
    * macOS
 
      Unzip the `r2g_gui-*.*.*-macOS.zip`. Hold `Control` and click `r2g.app`, or right click `r2g.app`, then click `open`.
 
-     <div align=center><img src="https://raw.githubusercontent.com/yangwu91/r2g_gui/master/images/mac.png" alt="mac"/></div>
+     <div align=center><img src="https://raw.githubusercontent.com/yangwu91/r2g_gui/main/images/mac.png" alt="mac"/></div>
 
    * Other systems with Python 3 environment (installed by PyPI)
 
