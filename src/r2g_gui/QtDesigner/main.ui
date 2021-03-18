@@ -413,9 +413,9 @@ ATGCATGC</string>
     <widget class="QLineEdit" name="cut">
      <property name="geometry">
       <rect>
-       <x>260</x>
+       <x>230</x>
        <y>30</y>
-       <width>191</width>
+       <width>221</width>
        <height>23</height>
       </rect>
      </property>
@@ -442,9 +442,9 @@ ATGCATGC</string>
     <widget class="QLineEdit" name="min_contig">
      <property name="geometry">
       <rect>
-       <x>260</x>
+       <x>230</x>
        <y>160</y>
-       <width>191</width>
+       <width>221</width>
        <height>23</height>
       </rect>
      </property>
@@ -496,9 +496,9 @@ ATGCATGC</string>
     <widget class="QComboBox" name="stage">
      <property name="geometry">
       <rect>
-       <x>260</x>
+       <x>230</x>
        <y>220</y>
-       <width>191</width>
+       <width>221</width>
        <height>23</height>
       </rect>
      </property>
@@ -540,9 +540,9 @@ ATGCATGC</string>
     <widget class="QLineEdit" name="trim_para">
      <property name="geometry">
       <rect>
-       <x>260</x>
+       <x>230</x>
        <y>190</y>
-       <width>191</width>
+       <width>221</width>
        <height>23</height>
       </rect>
      </property>
@@ -569,7 +569,7 @@ ATGCATGC</string>
     <widget class="QLabel" name="lbl_maxtarget">
      <property name="geometry">
       <rect>
-       <x>20</x>
+       <x>-10</x>
        <y>60</y>
        <width>201</width>
        <height>21</height>
@@ -593,9 +593,9 @@ ATGCATGC</string>
     <widget class="QLineEdit" name="evalue">
      <property name="geometry">
       <rect>
-       <x>260</x>
+       <x>230</x>
        <y>90</y>
-       <width>191</width>
+       <width>221</width>
        <height>23</height>
       </rect>
      </property>
@@ -618,7 +618,7 @@ ATGCATGC</string>
     <widget class="QLabel" name="lbl_stage">
      <property name="geometry">
       <rect>
-       <x>160</x>
+       <x>130</x>
        <y>220</y>
        <width>61</width>
        <height>21</height>
@@ -642,7 +642,7 @@ ATGCATGC</string>
     <widget class="QLabel" name="lbl_trimpara">
      <property name="geometry">
       <rect>
-       <x>70</x>
+       <x>40</x>
        <y>190</y>
        <width>151</width>
        <height>21</height>
@@ -768,7 +768,7 @@ ATGCATGC</string>
     <widget class="QCheckBox" name="trim">
      <property name="geometry">
       <rect>
-       <x>40</x>
+       <x>30</x>
        <y>190</y>
        <width>16</width>
        <height>21</height>
@@ -790,7 +790,7 @@ ATGCATGC</string>
     <widget class="QLabel" name="lbl_evalue">
      <property name="geometry">
       <rect>
-       <x>60</x>
+       <x>30</x>
        <y>90</y>
        <width>161</width>
        <height>21</height>
@@ -814,7 +814,7 @@ ATGCATGC</string>
     <widget class="QLabel" name="lbl_cut">
      <property name="geometry">
       <rect>
-       <x>50</x>
+       <x>20</x>
        <y>30</y>
        <width>171</width>
        <height>21</height>
@@ -889,9 +889,9 @@ ATGCATGC</string>
     <widget class="QLineEdit" name="max_num_seq">
      <property name="geometry">
       <rect>
-       <x>260</x>
+       <x>230</x>
        <y>60</y>
-       <width>191</width>
+       <width>221</width>
        <height>23</height>
       </rect>
      </property>
@@ -918,7 +918,7 @@ ATGCATGC</string>
     <widget class="QLabel" name="lbl_filter">
      <property name="geometry">
       <rect>
-       <x>170</x>
+       <x>140</x>
        <y>120</y>
        <width>51</width>
        <height>21</height>
@@ -942,7 +942,7 @@ ATGCATGC</string>
     <widget class="QLabel" name="lbl_mincontig">
      <property name="geometry">
       <rect>
-       <x>20</x>
+       <x>-10</x>
        <y>160</y>
        <width>201</width>
        <height>21</height>
@@ -1174,7 +1174,7 @@ ATGCATGC</string>
      <x>0</x>
      <y>0</y>
      <width>1060</width>
-     <height>21</height>
+     <height>25</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuFile">

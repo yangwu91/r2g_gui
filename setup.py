@@ -55,7 +55,7 @@ setup(
     ],
     install_requires=requirements,
     extras_require={
-        'cli': ["r2g>=1.0.3", "requests~=2.24.0", "selenium~=3.141.0"],
+        'cli': ["r2g>=1.0.5", "requests~=2.24.0", "selenium~=3.141.0"],
         'test': ["pytest", "pytest-cov", "codecov"],
     },
 )

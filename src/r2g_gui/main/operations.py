@@ -6,6 +6,7 @@ import json
 import tempfile
 from pathlib import Path
 import subprocess
+import webbrowser
 
 from PyQt5 import QtCore, QtWidgets, QtGui
 import docker
@@ -406,7 +407,8 @@ class R2gMainWindow(QtWidgets.QMainWindow, ui_main.Ui_MainWindow):
         )
 
     def show_help(self):
-        self.info_box("Constructing...\nPlease visit: {}".format(r2g_gui.__url__))
+        webbrowser.open(r2g_gui.__url__)
+        # self.info_box("Constructing...\nPlease visit: {}".format(r2g_gui.__url__))
 
     def update_engine(self, force=False):
         self.actionUpdate_the_r2g_engine.setEnabled(False)
