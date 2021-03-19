@@ -567,7 +567,7 @@ class R2gDockerThread(QtCore.QThread):
                 "--CPU", parameters["CPU"],
                 "--max_memory", parameters["max_memory"]+"G",
                 "--min_contig_length", parameters["min_contig"],
-                "--stage", parameters["stage"],
+                "--stage", parameters["stage"].split()[0].strip(),
             ]
             if parameters["verbose"]:
                 self.cmd.append("--verbose")

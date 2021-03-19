@@ -9,7 +9,7 @@ __banner__ = r"""
  Reads to Genes /___/  
 """
 
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 __title__ = "r2g_gui"
 __full_name__ = "Reads to Genes (GUI)"

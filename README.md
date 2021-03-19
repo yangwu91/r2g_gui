@@ -23,14 +23,16 @@ You can choose one of the following methods to install the `r2g GUI`:
 
 * Download zipped pre-built binary files (**Python 3 environment is NOT required**)
 
-  | Operating System | Size (Mb) | MD5                              | Download link                 |
-  | ---------------- | --------- | -------------------------------- | ----------------------------- |
-  | Windows          | 40.58     | 6ce77067905cb0d7e5c17934a018da76 | [r2g_gui-0.1.0-Windows.zip](https://github.com/yangwu91/r2g_gui/releases/download/v0.1.0/r2g_gui-0.1.0-Windows.zip) |
-  | macOS            | 30.10     | f719b82ba47e74b758a2505aecb4c5ad | [r2g_gui-0.1.0-macOS.zip](https://github.com/yangwu91/r2g_gui/releases/download/v0.1.0/r2g_gui-0.1.0-macOS.zip)   |
+  | Operating System   | Size (MB) | MD5                              | Download link                                                |
+  | ------------------ | --------- | -------------------------------- | ------------------------------------------------------------ |
+  | Windows            | 39.98     | 78f3428a1f3305015f17255ef9536b46 | [r2g_gui-0.1.1-Windows.zip](https://github.com/yangwu91/r2g_gui/releases/download/v0.1.1/r2g_gui-0.1.1-Windows.zip) |
+  | macOS (Intel Chip) | 30.10     | f04b80a1f8a08e57ea8230f2e9af2c12 | [r2g_gui-0.1.1-macOS.zip](https://github.com/yangwu91/r2g_gui/releases/download/v0.1.1/r2g_gui-0.1.1-macOS.zip) |
 
-  ⚠️ Please note that Windows Defender will report it as `Trojan:Win32/Wacatac.B!ml`, which is **false positive**. Add the `r2g.exe` to the excluding list of Windows Defender for further use. Please check out the scanning results on [https://virustotal.com](https://www.virustotal.com/gui/file/c6a235bd3ef7497de19a8e0fbf251ba9526e6321110a32b891e419a7ff0a6e34/detection).  Or maybe you can try the other method if the Python 3 environment has been installed on your computer.
+  ⚠️ Please note that Windows Defender will report it as `Trojan:Win32/Wacatac.B!ml`, which is **false positive**. Add the `r2g.exe` to the excluding list of Windows Defender for further use. Please check out the scanning results on [https://virustotal.com](https://www.virustotal.com/gui/file/e05fc1a5acaba1059461b85238d05c335c4d74206931110bede20096442f3146/detection).  Or maybe you can try the other method if the Python 3 environment has been installed on your computer.
 
   <div align=center><img src="https://raw.githubusercontent.com/yangwu91/r2g_gui/main/images/windows_defender.png" alt="windows_defender"/></div>
+  
+  ⚠️ Please note that the executable binary has **not** been tested on the Apple M1 Chip.
 
 * Install by PyPI (**Python 3 environment is required**)
 
@@ -40,7 +42,7 @@ You can choose one of the following methods to install the `r2g GUI`:
 
 ## Usage
 
-1. Please run the Docker (i.e. Docker Desktop on WIndows/macOS or Docker Deamon on Linux) before start the r2g job. 
+1. Please run the Docker (i.e. Docker Desktop on Windows/macOS or Docker Deamon on Linux) before start the r2g job. 
 
 2. Start the `r2g GUI`. At the first time, the r2g GUI will pull the latest image of the r2g Docker, which should take a while depending on your network quality. 
 
